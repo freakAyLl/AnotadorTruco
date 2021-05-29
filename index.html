@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anotador</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="firstScreen" id="one">
+            <input type="text" id="teamName1" value="Team 1">
+            <input type="text" id="teamName2" value="Team 2">
+            <div class="buttonContainer">
+                <button id="24">A 24</button>    
+                <button id="30">A 30</button>    
+            </div>
+            <button id="alone">Start</button>
+        </div>
+        <div class="secondScreen" id="two">
+            <div class="side" id="leftSide">
+                <div class="topContainer" id="left">
+                    <button class="addButton">+</button>
+                    <p id="name1"></p>
+                </div>
+                <div class="first15 leftMatches">
+                    <img class="fosforos 1"  src="images/0.png">
+                    <img class="fosforos 6" src="images/0.png">
+                    <img class="fosforos 11" src="images/0.png">
+                </div>
+                <div class="first15 leftMatches">
+                    <img class="fosforos 16" src="images/0.png">
+                    <img class="fosforos 21" src="images/0.png">
+                    <img class="fosforos 26" src="images/0.png">
+                </div>
+            </div>
+            <div class="side">
+                <div class="topContainer" id="right">
+                    <p id="name2"></p>
+                    <button class="sum addButton">+</button>                    
+                </div>
+                <div class="first15 rightMatches">
+                    <img class="fosforos 1"  src="images/0.png">
+                    <img class="fosforos 6" src="images/0.png">
+                    <img class="fosforos 11" src="images/0.png">
+                </div>
+                <div class="first15 rightMatches">
+                    <img class="fosforos 16" src="images/0.png">
+                    <img class="fosforos 21" src="images/0.png">
+                    <img class="fosforos 26" src="images/0.png">
+                </div>
+            </div>
+            <div class="footer">
+                <p class="matchLength"></p>
+                <div class="lastContainer">
+                    <button class="addButton" id="leftSubstract">-</button>
+                    <p id="diplay1">0</p>
+                    <button class="addButton" id="end">Fin</button>
+                    <p id="diplay2">0</p>
+                    <button class="addButton" id="rigthSubstract">-</button>
+                </div>
+            </div>
+        </div>
+    </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="scripts/scripts.js"></script>
+</html>
